@@ -1,0 +1,8 @@
+# This file specifies the dependencies that are needed to run this project. 
+
+ipykernel==5.3.4
+pandas==0.25.3
+urllib3==1.25.10
+beautifulsoup4==4.8.1
+numpy==1.17.4
+requests==2.24.0
