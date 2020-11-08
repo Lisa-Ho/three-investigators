@@ -8,3 +8,6 @@ numpy==1.17.4
 requests==2.24.0
 lxml==4.5.2
 html5lib==1.1
+nltk==3.5
+spacy==2.3.2
+de-core-news-sm==2.3.0
