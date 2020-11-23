@@ -10,3 +10,8 @@ __pycache__/
 *.csv
 *.xlsx
 
+# exclude images
+*.png
+*.jpg
+*.jpeg
+
