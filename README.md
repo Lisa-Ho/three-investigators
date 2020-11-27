@@ -1,18 +1,35 @@
 # About this project
 
+This is a personal project scraping and analysing data on the German audio drama ‘Die drei ???’ (the three question marks). As a huge fan and regular listener since my childhood, I was curious to find out a bit more on series while expanding my python skills around webscraping. 
+
+Thanks to the fansite [Rocky-Beach.com](https://www.rocky-beach.com/php/wordpress/) I was able to collect data on each episode. I then used [Genderize API](https://github.com/SteelPangolin/genderize) to predict the gender of the show's actors based on their first name. 
+
+The write up of the analysis can be found on [my blog](https://inside-numbers.com/exploring-the-most-popular-german-audio-drama-die-drei-fragezeichen). 
+
+## Notebooks
+
+The project has been organised across different jupyter notebooks:
+
+- 1 Web scraping
+- 2 actor gender predictions using genderize API
+- 3 content analysis of titles
+- 4 data cleaning and analysis
+
+## Requirements
+This project is run on python 3 and a number of data analysis packages.
+The exact packages are specified in ```requirements.txt``` 
+
+## Notes on methodology
+
+### Data cleaning
+
+As with any data, I found some inconsistencies that required additional cleaning, for example renaming roles where different names were used for the same character. 
+
+The majority of data preparation involved deriving variables and merging different data sets.
 
 
-
-# Parts
-The project has been organised across different jupyter notebooks.
-
-- I Web scraping
-- I.I topic analysis of titles
-- I.II gender predictions using genderize API
-- II data cleaning and explorative analysis
-
-# Title categories
-Individual words found in titles were categorised into the following themes
+### Title categories
+As part of the title content analysis, words found in episode titles were categorised into the following themes:
 
 - animal: katze, hund, löwe, papagei, spinne, schlange, wal, wolf, tiger, rabe, insekt, cobra, skorpion, motte, vögel, marder, - ameise, hai, gockel
 - colour: grün, schwarz, gelb, blau, rot, weiß
@@ -27,9 +44,5 @@ Individual words found in titles were categorised into the following themes
 - sport: spieler, fussball, fußball, skateboard, poker, quiz, foul
 - tech: computer, internet, email, sms, netz, gps, handy
 - treasure: gold, diamant, schatz, rubin
-
-
-
-
 
 
