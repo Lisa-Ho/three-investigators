@@ -1,6 +1,6 @@
 # About this project
 
-This is a personal project scraping and analysing data on the German audio drama [‘Die drei ???’](https://de.wikipedia.org/wiki/Die_drei_%3F%3F%3F) (orgig. the three investigators). As a huge fan and regular listener since my childhood, I was curious to find out more about the series while expanding my python skills around webscraping. 
+This is a personal project scraping and analysing data on the German audio drama [‘Die drei ???’](https://de.wikipedia.org/wiki/Die_drei_%3F%3F%3F) (orig.: the three investigators). As a huge fan and regular listener since my childhood, I was curious to find out more about the series while expanding my python skills around webscraping. 
 
 Thanks to the fansite [Rocky-Beach.com](https://www.rocky-beach.com/php/wordpress/) I was able to collect data on each episode. I then used [Genderize API](https://github.com/SteelPangolin/genderize) to predict the gender of the show's actors based on their first name. 
 
