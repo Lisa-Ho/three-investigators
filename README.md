@@ -4,7 +4,7 @@ This is a personal project scraping and analysing data on the German audio drama
 
 Thanks to the fansite [Rocky-Beach.com](https://www.rocky-beach.com/php/wordpress/) I was able to collect data on each episode. I then used [Genderize API](https://github.com/SteelPangolin/genderize) to predict the gender of the show's actors based on their first name. 
 
-The write up of the analysis can be found on [my blog](https://inside-numbers.com/exploring-the-most-popular-german-audio-drama-die-drei-fragezeichen). 
+The write up of the analysis can be found on [my blog](https://inside-numbers.com/germanys-most-popular-audio-drama-in-numbers). 
 
 ## Notebooks
 
