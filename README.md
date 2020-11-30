@@ -10,10 +10,10 @@ The write up of the analysis can be found on [my blog](https://inside-numbers.co
 
 The project has been organised across different jupyter notebooks:
 
-- 1 Web scraping
-- 2 actor gender predictions using genderize API
-- 3 content analysis of titles
-- 4 data cleaning and analysis
+1. Web scraping
+2. actor gender predictions using genderize API
+3. content analysis of titles
+4. data cleaning and analysis
 
 ## Requirements
 This project is run on python 3 and a number of data analysis packages.
